@@ -65,7 +65,7 @@ body {
 }
 
 .owner{
-	font-size: 10px;
+	font-size: 11px;
 }
 
 
@@ -3579,7 +3579,7 @@ input, select, textarea {
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		color: rgba(255, 255, 255, 0.46);
 	}
 
 	#header + #wrapper + #footer > .inner {
