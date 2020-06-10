@@ -11,6 +11,22 @@ $(document).ready(function () {
     $("h2", "#" + days_arr[n]).html(days_arr[n] + " <span class='title-live'>(Live)</span>");
 
     fadeThem();
+
+    $('html,body').animate({
+        scrollTop: $("#" + days_arr[n]).offset().top
+    }, '5000');
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('#scroll').fadeIn();
+        } else {
+            $('#scroll').fadeOut();
+        }
+    });
+    $('#scroll').click(function () {
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
 })
 
 function fadeThem() {
