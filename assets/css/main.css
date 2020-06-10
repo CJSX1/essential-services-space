@@ -23,6 +23,16 @@ body {
 	font-weight: 100;
 }
 
+.nav-live{
+	color:orange;
+}
+
+.title-live{
+	color:#0005f3;
+	font-size:14px;
+}
+
+
 /* css */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1851,7 +1861,7 @@ input, select, textarea {
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
+		border-color: rgba(255, 255, 255, 0.48) !important;
 		border-radius: 3em;
 		color: #ffffff !important;
 		cursor: pointer;
