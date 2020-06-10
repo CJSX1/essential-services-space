@@ -64,6 +64,10 @@ body {
     -ms-filter:"alpha(opacity=100)";
 }
 
+.owner{
+	font-size: 10px;
+}
+
 
 /* css */
 html, body, div, span, applet, object,
