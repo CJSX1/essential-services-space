@@ -68,6 +68,15 @@ body {
 	font-size: 11px;
 }
 
+.misc-section{
+	background-color: lightcoral !important;
+    color: white;
+}
+
+.misc-title{
+	color:white;
+}
+
 
 /* css */
 html, body, div, span, applet, object,
